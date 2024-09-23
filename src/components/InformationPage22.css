@@ -1,0 +1,70 @@
+.information-page {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-content {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .company-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .company-item {
+    background-color: #4CAF50; /* Green background for list items */
+    color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners for list items */
+    transition: background-color 0.3s;
+  }
+  
+  .company-item:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .info-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .back-button {
+    background-color: #4CAF50; /* Green background for back button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .details-button {
+    background-color: #2196F3; /* Blue background for details button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Add space between buttons */
+  }
+  
+  .details-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+  }
+  

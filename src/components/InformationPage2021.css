@@ -1,0 +1,78 @@
+.information-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-header {
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: #13b2e2c5;
+  }
+  
+  .info-content {
+    flex: 1;
+    margin: 2px auto;
+    max-width: 600px;
+  }
+  
+  .company-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .company-item {
+    background-color: #4CAF50; 
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .company-item:hover {
+    background-color: #45a049; 
+  }
+  
+  .info-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .back-button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 20%; 
+    margin: 5px; 
+  }
+  
+  .back-button:hover {
+    background-color: #45a049; 
+  }
+  
+  
+  .details-button {
+    background-color: #2196F3; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 15%;
+  }
+  
+  .details-button:hover {
+    background-color: #1976D2; 
+  }
+  
