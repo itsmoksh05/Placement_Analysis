@@ -8,8 +8,8 @@
     font-family: "Nunito", cursive; 
     color: #333; 
     line-height: 1.6; 
-    backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px); 
     display: flex; 
     flex-direction: column; 
     justify-content: space-between; 
